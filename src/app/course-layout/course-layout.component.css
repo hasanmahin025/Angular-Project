@@ -1,0 +1,15 @@
+.main-div{
+   display: flex;
+   text-align: left;
+    
+}
+
+.left{
+    width:260px;
+}
+.right{
+    width: auto;
+}
+.body{
+   background-color:rgb(255, 255, 255);
+}

@@ -1,0 +1,107 @@
+<h1>C Constants</h1>
+  <div class="def">
+  <p>Constants in C are values that do not change during the execution of a program. <br>
+    They are useful when you want to assign meaningful names to fixed values, <br>
+    improving readability and maintainability of your code.</p>
+    </div>
+  <div class="one">
+  <h2>1. Why Use Constants?</h2>
+  <ul>
+    <li>Prevent accidental changes to fixed values.</li>
+    <li>Improve code readability by replacing "magic numbers" with meaningful names.</li>
+    <li>Facilitate easier updates—change the value in one place only.</li>
+    <li>Enforce program logic constraints (e.g., `MAX_USERS` should not change).</li>
+  </ul>
+</div>
+  <div class="two">
+  <h2>2. Types of Constants</h2>
+  <ul>
+    <li><strong>Integer constants:</strong> Whole numbers, e.g., <code>100</code>, <code>-23</code></li>
+    <li><strong>Floating-point constants:</strong> Decimal numbers, e.g., <code>3.14</code>, <code>2.0e5</code></li>
+    <li><strong>Character constants:</strong> Single characters enclosed in single quotes, e.g., <code>'A'</code>, <code>'7'</code></li>
+    <li><strong>String constants:</strong> Sequence of characters enclosed in double quotes, e.g., <code>"Hello"</code></li>
+  </ul>
+ </div>
+ <div class="three">
+  <h2>3. Defining Constants</h2>
+
+  <h3>A. Using <code>#define</code> (Macro Constants)</h3>
+  <p>Defines a symbolic name that gets replaced before compilation. No type checking.</p>
+  <pre><code>#define PI 3.14159
+#define MAX_USERS 100</code></pre>
+
+  <h3>B. Using <code>const</code> Keyword</h3>
+  <p>Declares a typed variable whose value cannot be modified after initialization. Compiler enforces immutability.</p>
+  <pre><code>const int MAX_SCORE = 100;
+const float TAX_RATE = 0.18;
+const char NEWLINE = '\n';</code></pre>
+</div>
+ <div class="four">
+  <h2>4. Difference Between <code>#define</code> and <code>const</code></h2>
+  <div class="table">
+   <table>
+    <tr>
+      <th>Aspect</th>
+      <th><code>#define</code></th>
+      <th><code>const</code></th>
+    </tr>
+    <tr>
+      <td>Data type</td>
+      <td>No type</td>
+      <td>Has a data type</td>
+    </tr>
+    <tr>
+      <td>Scope</td>
+      <td>Global (file-wide)</td>
+      <td>Local or global</td>
+    </tr>
+    <tr>
+      <td>Memory allocation</td>
+      <td>No memory reserved</td>
+      <td>Memory is allocated</td>
+    </tr>
+    <tr>
+      <td>Debugging</td>
+      <td>Harder to debug</td>
+      <td>Visible in debugger</td>
+    </tr>
+    <tr>
+      <td>Compiler checks</td>
+      <td>No type checking</td>
+      <td>Yes, strictly checked</td>
+    </tr>
+  </table>
+</div>
+</div>
+<div class="five">
+  <h2>5. Literal Constants</h2>
+  <p>These are raw values used directly in code, like:</p>
+  <ul>
+    <li><code>42</code> – integer literal</li>
+    <li><code>3.14</code> – floating-point literal</li>
+    <li><code>'A'</code> – character literal</li>
+    <li><code>"World"</code> – string literal</li>
+  </ul>
+</div>
+<div class="six">
+  <h2>6. Example Program</h2>
+  <pre><code>#include &lt;stdio.h&gt;
+
+#define PI 3.14159
+
+int main() &#123;  
+    const int RADIUS = 5;
+    float area = PI * RADIUS * RADIUS;
+    printf("Area of Circle: %.2f\n", area);
+    return 0;
+  &#125;</code></pre>
+</div>
+<div class="seven">
+  <h2>7. Notes and Best Practices</h2>
+  <ul>
+    <li>Use <code>const</code> when you need type safety and scoped constants.</li>
+    <li>Use <code>#define</code> for compile-time symbolic values or for conditional compilation.</li>
+    <li>Avoid magic numbers in code; replace them with named constants.</li>
+    <li>Declare <code>const</code> variables as <code>static</code> inside functions to limit scope and reduce memory overhead.</li>
+  </ul>
+  </div>

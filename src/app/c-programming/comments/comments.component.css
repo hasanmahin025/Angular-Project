@@ -1,0 +1,39 @@
+.Defination{
+    max-width: fit-content;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: left;
+}
+.single{
+  
+    max-width: fit-content;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: left;
+
+}
+
+.Multi{
+     max-width: fit-content;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: left;
+}
+.Example{
+     max-width: fit-content;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: auto;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: left;
+}

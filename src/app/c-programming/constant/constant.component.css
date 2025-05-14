@@ -1,0 +1,92 @@
+.table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: 20px auto;
+      border-radius: 10px;
+    }
+    th, td {
+      border: 1px solid #000;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #e6e6e6;
+    }
+
+  .one{
+    max-width: fit-content;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: left;
+  }
+
+  .two{
+     max-width: fit-content;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: left;
+  }
+  .three{
+max-width: fit-content;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: left;
+  }
+  .four{
+max-width: fit-content;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: left;
+
+  }
+  .five{
+max-width: fit-content;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: left;
+
+  }
+  .six{
+max-width: fit-content;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: left;
+
+  }
+  .seven{
+
+max-width: fit-content;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: left;
+  }
+  .def{
+    max-width: fit-content;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: left;
+  }

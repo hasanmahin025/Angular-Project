@@ -1,0 +1,154 @@
+<div class="Title">
+    <h1>C Data Types</h1>
+
+</div>
+<div class="SubTitle">
+    <h4>Let's Start with C Data Types</h4>
+</div>
+<div class="Defination">
+    <p>C provides several built-in data types that define the type of data <br>
+        a variable can hold.These types fall into the following categories:</p>
+</div>
+<div class="Types">
+    <p>Different Types of Data Types in C</p>
+</div>
+<div class="primary">
+    <p><strong>1.Primary Data Types</strong></p>
+    <table border="1" cellpadding="10" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th>Size (Typical)</th>
+      <th>Example Values</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>int</code></td>
+      <td>Stores whole numbers</td>
+      <td>4 bytes</td>
+      <td>10, -5, 0</td>
+    </tr>
+    <tr>
+      <td><code>float</code></td>
+      <td>Stores single-precision decimal numbers</td>
+      <td>4 bytes</td>
+      <td>3.14, -0.5</td>
+    </tr>
+    <tr>
+      <td><code>double</code></td>
+      <td>Stores double-precision decimal numbers</td>
+      <td>8 bytes</td>
+      <td>3.14159, -2.5e10</td>
+    </tr>
+    <tr>
+      <td><code>char</code></td>
+      <td>Stores a single character</td>
+      <td>1 byte</td>
+      <td>'a', 'Z', '1'</td>
+    </tr>
+    <tr>
+      <td><code>void</code></td>
+      <td>Indicates absence of value</td>
+      <td>0 bytes</td>
+      <td><code>void main()</code></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="Exam">
+    <p>For Example</p>
+    <pre><code class="language-c" ngNonBindable>
+  #include &lt;stdio.h&gt;
+  int main() &#123;
+    int id = 20;
+    float cgpa = 3.43;
+    char Grade = 'A';
+    double Result = 3.56;
+
+    printf("id: %d\n", id);
+    printf("cgpa: %.1f\n", cgpa);
+    printf("Grade: %c\n", Grade);
+    printf("Result %lf\n" , Result);
+
+    return 0;
+  &#125;
+      </code></pre>
+</div>
+<div class="Format">
+    <p><strong>Here is a table of the Basic Format Specifiers in C, commonly used with functions like printf() and scanf():</strong></p>
+    <table border="1" cellpadding="10" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Specifier</th>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>%d</code></td>
+      <td><code>int</code></td>
+      <td>Signed decimal integer</td>
+      <td><code>printf("%d", 10);</code></td>
+    </tr>
+    <tr>
+      <td><code>%u</code></td>
+      <td><code>unsigned int</code></td>
+      <td>Unsigned decimal integer</td>
+      <td><code>printf("%u", 100);</code></td>
+    </tr>
+    <tr>
+      <td><code>%f</code></td>
+      <td><code>float</code></td>
+      <td>Decimal floating point</td>
+      <td><code>printf("%f", 3.14);</code></td>
+    </tr>
+    <tr>
+      <td><code>%lf</code></td>
+      <td><code>double</code></td>
+      <td>Double-precision float</td>
+      <td><code>printf("%lf", 3.141592);</code></td>
+    </tr>
+    <tr>
+      <td><code>%c</code></td>
+      <td><code>char</code></td>
+      <td>Single character</td>
+      <td><code>printf("%c", 'A');</code></td>
+    </tr>
+    <tr>
+      <td><code>%s</code></td>
+      <td><code>char[]</code></td>
+      <td>String of characters</td>
+      <td><code>printf("%s", "Hello");</code></td>
+    </tr>
+    <tr>
+      <td><code>%x</code></td>
+      <td><code>int</code></td>
+      <td>Hexadecimal (lowercase)</td>
+      <td><code>printf("%x", 255);</code></td>
+    </tr>
+    <tr>
+      <td><code>%X</code></td>
+      <td><code>int</code></td>
+      <td>Hexadecimal (uppercase)</td>
+      <td><code>printf("%X", 255);</code></td>
+    </tr>
+    <tr>
+      <td><code>%o</code></td>
+      <td><code>int</code></td>
+      <td>Octal number</td>
+      <td><code>printf("%o", 10);</code></td>
+    </tr>
+    <tr>
+      <td><code>%%</code></td>
+      <td>N/A</td>
+      <td>Prints a percent sign</td>
+      <td><code>printf("%%");</code></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+

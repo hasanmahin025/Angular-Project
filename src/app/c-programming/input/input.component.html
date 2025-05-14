@@ -1,0 +1,50 @@
+
+<div class="Title">
+    <h1>C input</h1>
+</div>
+<div class="Sub">
+    <h4>Let's Start With C Input</h4>
+</div>
+<div class="first">
+<h2>1. <code>scanf()</code> – Formatted Input</h2>
+  <p>Used to read input from the standard input (keyboard).</p>
+  <pre><code>scanf("format_specifier", &variable);</code></pre>
+
+  <h3>Example:</h3>
+  <pre><code>int age;
+scanf("%d", &age);</code></pre>
+</div>
+<div class="table">
+  <h3><strong>Common Format Specifiers:</strong></h3>
+  <table border="1">
+    <tr><th>Specifier</th><th>Type</th><th>Example</th></tr>
+    <tr><td>%d</td><td>int</td><td><code>scanf("%d", &x);</code></td></tr>
+    <tr><td>%f</td><td>float</td><td><code>scanf("%f", &f);</code></td></tr>
+    <tr><td>%lf</td><td>double</td><td><code>scanf("%lf", &d);</code></td></tr>
+    <tr><td>%c</td><td>char</td><td><code>scanf(" %c", &ch);</code> <span class="note">(space skips newline)</span></td></tr>
+    <tr><td>%s</td><td>string</td><td><code>scanf("%s", str);</code></td></tr>
+  </table>
+</div>
+<div class="get">
+  <h2>2. <code>getchar()</code> – Read a Single Character</h2>
+  <pre><code>char ch = getchar();</code></pre>
+  <p>Example:</p>
+  <pre><code>char ch;
+printf("Enter a character: ");
+ch = getchar();</code></pre>
+</div>
+<div class="get2">
+  <h2>3. <code>gets()</code> – Deprecated</h2>
+  <p class="note"> Avoid using <code>gets()</code> – it is unsafe and deprecated.</p>
+  <p>Instead, use <code>fgets()</code>:</p>
+  <pre><code>fgets(str, size, stdin);</code></pre>
+
+  <h3>Example:</h3>
+  <pre><code>char name[50];
+printf("Enter your full name: ");
+fgets(name, 50, stdin);</code></pre>
+</div>
+
+<div class="fotter">
+    <p>Run this code your CodeBlocks IDE</p>
+</div>

@@ -1,0 +1,95 @@
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .Main {
+    text-align: left;
+    margin-top: 2rem;
+    
+  }
+  
+  .Main h1 {
+    font-size: 2.8rem;
+    color: #000000;
+    margin-bottom: 0.5rem;
+    
+  }
+  
+  
+  .Title h2 {
+    font-size: 2rem;
+    text-align: left;
+    color: #030a0e;
+    margin-bottom: 1.5rem;
+  }
+  
+
+  .Start, .IDE, .Stpes, .start {
+    background-color: #ffffff;
+    border-radius: 7px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    padding: 1.5rem 2rem;
+    margin: 1.5rem auto;
+    max-width: 800px;
+  }
+  
+ 
+  h4 {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin-bottom: 0.8rem;
+  }
+  
+
+  p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 0.75rem;
+  }
+  
+ 
+  a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  strong {
+    color: #d35400;
+    font-weight: bold;
+  }
+  
+
+  .card-img-top {
+    display: block;
+    margin: 1rem;
+    max-width: 300px; 
+    width: 100%;       
+    height: auto;
+    border-radius: auto;
+    border: 1px solid #ccc;
+  }
+  
+  
+  
+  @media (max-width: 768px) {
+    .Start, .IDE, .Stpes, .start {
+      padding: 1rem;
+    }
+  
+    .Main h1, .Title h2 {
+      font-size: 1.8rem;
+    }
+  }
+  

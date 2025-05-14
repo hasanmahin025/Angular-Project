@@ -1,0 +1,17 @@
+<body>
+<div class="contact-container bg-black">
+    <h2>Contact Me!</h2>
+    <form (ngSubmit)="sumitform()" >
+      <div class="input-group">
+        <input type="text" name="fullName" placeholder="Full Name" required [(ngModel)]="contact.fullname" />
+        <input type="email" name="email" placeholder="Email Address" required [(ngModel)]="contact.email" />
+      </div>
+      <div class="input-group">
+        <input type="tel" name="phone" placeholder="Phone Number" required [(ngModel)]="contact.phone" />
+        <input type="text" name="subject" placeholder="Subject"[(ngModel)]="contact.subject" />
+      </div>
+      <textarea name="message" placeholder="Your Message" required [(ngModel)] ="contact.message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</body>
