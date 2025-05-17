@@ -1,0 +1,21 @@
+{
+  "routes": {
+    "/": {},
+    "/c-programming": {},
+    "/c-programming/comments": {},
+    "/c-programming/constant": {},
+    "/c-programming/datatypes": {},
+    "/c-programming/getstarted": {},
+    "/c-programming/input": {},
+    "/c-programming/introduction": {},
+    "/c-programming/operator": {},
+    "/c-programming/output": {},
+    "/c-programming/syntax": {},
+    "/c-programming/variables": {},
+    "/contact": {},
+    "/course": {},
+    "/cpp-programming": {},
+    "/research": {},
+    "/signup": {}
+  }
+}
